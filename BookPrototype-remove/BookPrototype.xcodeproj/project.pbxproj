@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80B84C6E2330E85200A478CD /* BookDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B84C6D2330E85200A478CD /* BookDetailsController.swift */; };
 		AA62A8B12323F0D100CFC206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA62A8B02323F0D100CFC206 /* AppDelegate.swift */; };
 		AA62A8B32323F0D100CFC206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA62A8B22323F0D100CFC206 /* ViewController.swift */; };
 		AA62A8B62323F0D100CFC206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA62A8B42323F0D100CFC206 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80B84C6D2330E85200A478CD /* BookDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsController.swift; sourceTree = "<group>"; };
 		AA62A8AD2323F0D100CFC206 /* BookPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA62A8B02323F0D100CFC206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA62A8B22323F0D100CFC206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				AA62A8B02323F0D100CFC206 /* AppDelegate.swift */,
 				AA62A8B22323F0D100CFC206 /* ViewController.swift */,
+				80B84C6D2330E85200A478CD /* BookDetailsController.swift */,
 				AA62A8B42323F0D100CFC206 /* Main.storyboard */,
 				AA62A8C22323F21E00CFC206 /* AddController.swift */,
 				AA62A8B72323F0D200CFC206 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B84C6E2330E85200A478CD /* BookDetailsController.swift in Sources */,
 				AA62A8C32323F21E00CFC206 /* AddController.swift in Sources */,
 				AA62A8B32323F0D100CFC206 /* ViewController.swift in Sources */,
 				AA62A8B12323F0D100CFC206 /* AppDelegate.swift in Sources */,

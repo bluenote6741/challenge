@@ -7,11 +7,20 @@
 
 import UIKit
 
-class BookDetailsControllerViewController: UIViewController {
+class BookDetailsController: UIViewController {
 
+    
+    @IBOutlet weak var BookTitleLabel: UILabel!
+    @IBOutlet weak var BookReleaseDateLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let a: [String] = UserDefaults.standard.array(forKey: "TitleList") as! [String]
+        let b: [String] = UserDefaults.standard.array(forKey: "ReleaseDateList") as! [String]
+        BookTitleLabel.text = a[giveCellCount]
+        BookReleaseDateLabel.text = b[giveCellCount]
         // Do any additional setup after loading the view.
     }
     
