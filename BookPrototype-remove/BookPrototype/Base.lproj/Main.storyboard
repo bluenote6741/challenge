@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BookPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BookPrototype" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,7 @@
         <!--Add Controller-->
         <scene sceneID="DV0-TV-EvN">
             <objects>
-                <viewController id="5AJ-Hv-j0H" customClass="AddController" customModule="BookPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5AJ-Hv-j0H" customClass="AddController" customModule="BookPrototype" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IAi-eq-coD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
